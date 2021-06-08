@@ -21,6 +21,9 @@ function App() {
   }, []);
   return (
     <div className="container mx-auto">
+      <h1 className="text-red-900 text-4xl text-center mx-auto my-5">
+        Astronomy Pictures of the Day
+      </h1>
       {isLoading ? (
         <h1 className="text-6xl text-center mx-auto mt-32">Loading...</h1>
       ) : (
