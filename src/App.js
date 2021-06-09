@@ -18,7 +18,7 @@ function App() {
         setIsLoading(false);
       })
       .catch((err) => console.log(err));
-  }, []);
+  }, [startDate]);
   return (
     <div className="container mx-auto">
       <h1 className="text-red-900 text-4xl text-center mx-auto my-5">
