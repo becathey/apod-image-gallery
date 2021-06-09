@@ -14,7 +14,7 @@ function App() {
     )
       .then((res) => res.json())
       .then((data) => {
-        setImages(data);
+        setImages(data.reverse());
         setIsLoading(false);
       })
       .catch((err) => console.log(err));
