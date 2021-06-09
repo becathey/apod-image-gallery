@@ -21,9 +21,12 @@ function App() {
   }, [startDate]);
   return (
     <div className="container mx-auto">
-      <h1 className="text-red-900 text-4xl text-center mx-auto my-5">
+      <h1 className="text-red-900 text-4xl text-center mx-auto mt-5">
         Astronomy Picture of the Day
       </h1>
+      <h2 className="text-grey-400 text-xl text-center mx-auto mb-5">
+        Recent images from NASA's APOD API
+      </h2>
       {isLoading ? (
         <h1 className="text-6xl text-center mx-auto mt-32">Loading...</h1>
       ) : (
