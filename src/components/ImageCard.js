@@ -1,13 +1,14 @@
 import React from "react";
 
-const ImageCard = ({ image }) => {
+const ImageCard = ({ image, videoImage }) => {
   return (
     <div className="max-w-sm rounded overflow-hidden shadow-lg mb-3">
       {image.media_type === "image" ? (
         <img src={image.url} alt={image.title} className="w-full" />
       ) : (
         <img
-          src={`${process.env.PUBLIC_URL}/assets/default-video.jpg`}
+          //   src={`${process.env.PUBLIC_URL}/assets/default-video.jpg`}
+          src={videoImage}
           alt={image.title}
           className="w-full"
         />

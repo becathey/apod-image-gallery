@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import ImageCard from "./components/ImageCard";
+import videoImage from "./assets/default-video.jpg";
 
 function App() {
   const [images, setImages] = useState([]);
@@ -32,7 +33,7 @@ function App() {
       ) : (
         <div className="grid grid-cols-3 gap-4">
           {images.map((image) => (
-            <ImageCard key={image.date} image={image} />
+            <ImageCard key={image.date} image={image} videoImage={videoImage} />
           ))}
         </div>
       )}
