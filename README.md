@@ -2,6 +2,8 @@
 
 This site displays recent images from NASA's Astronomy Picture of the Day API.
 
+View site: [https://apod-gallery.netlify.app/](https://apod-gallery.netlify.app/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
