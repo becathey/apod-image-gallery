@@ -28,8 +28,7 @@ See [running tests](https://facebook.github.io/create-react-app/docs/running-tes
 Builds the app for production to the `build` folder.\
 It bundles React in production mode and optimizes the build for best performance.
 
-The build is minified and the filenames include the hashes.\
-The app is ready to be deployed!
+The build is minified and the filenames include the hashes.
 
 See [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
