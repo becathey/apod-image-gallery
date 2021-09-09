@@ -6,12 +6,7 @@ const ImageCard = ({ image, videoImage }) => {
       {image.media_type === "image" ? (
         <img src={image.url} alt={image.title} className="w-full" />
       ) : (
-        <img
-          //   src={`${process.env.PUBLIC_URL}/assets/default-video.jpg`}
-          src={videoImage}
-          alt={image.title}
-          className="w-full"
-        />
+        <img src={videoImage} alt={image.title} className="w-full" />
       )}
       <div className="px-6 py-4">
         <div className="font-bold text-purple-500 text-center text-lg mb-2">
