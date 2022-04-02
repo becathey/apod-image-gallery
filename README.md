@@ -2,6 +2,12 @@
 
 This project makes a request to NASA's Astronomy Picture of the Day API and displays the recent images in a card layout.
 
+## Install Dependencies
+
+```
+npm install
+```
+
 ## Run the App
 
 To run the app in development mode, in the project directory run:
